@@ -1,0 +1,162 @@
+body{
+    background-image: url(/img/background.jpeg);
+    background-position: center;
+    background-size: cover;
+
+    height: 95vh;
+    display: flex;
+    backdrop-filter: blur(3px);
+    margin-top: 25px;
+    font-family: cursive;
+}
+
+.topbar{
+    margin-left: 92px;
+    width: 1100px;
+    height: 80px;
+    background: radial-gradient(rgba(255, 255, 255,0.6));
+    box-shadow: 0 0 10px rgba(0,0, 0, 0.6);
+    border-radius: 20px;
+    backdrop-filter: blur(3px);
+
+}
+nav{
+    display: flex;
+    padding: 12px 5%;
+}
+
+.logo{
+    margin-top: 5px;
+    color: #ED7D31;
+    font-size: 36px;
+    float: left;
+    cursor: pointer;
+}
+
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0,2s ease;
+}
+
+nav ul li a:hover{
+    color: #000;
+}
+
+.bars{
+    list-style: none;
+    margin: 10px;
+    cursor: pointer;
+    color: aliceblue;
+    margin-left: 60px;
+    margin-right: -20px;
+}
+
+.active{
+    color: #363062;
+    text-decoration: underline;
+}
+
+.main{
+    display: flex;
+    margin: 20px;
+}
+
+.content{
+    background-image: url(itc\(1\).jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 930px;
+    height: 500px;
+    background: radial-gradient(rgba(255, 255, 255,0.6));
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    padding-left: 52px;
+    margin-left: 72px;
+    border-radius: 20px;
+}
+
+button{
+    cursor: pointer;
+    padding: 6px 16px;
+    font-size: 18px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background-color: #ED7D31;
+    font-family:'comic sans ms';
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+    font-family: cursive;
+}
+
+button:hover{
+   background-color: #6C5F5B;
+   color: #fff;
+}
+
+button a:hover{
+    color: #fff;
+}
+
+.icons{
+    margin-left: 35px;
+    width: 80px;
+    height: 500px;
+    background: radial-gradient(rgba(225, 225, 225, 0.6));
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    backdrop-filter: blur(3px);
+    cursor: pointer;
+}
+
+.social-icons ul li{
+    list-style: none;
+    margin-top: 55px;
+    margin-left: -16px;
+}
+
+.social-icons ul li i {
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    padding: 8px 8px;
+    transition: 0.2s ease;
+}
+
+.social-icons ul li i:hover{
+    color: black;
+    background-color: #4F4A45;
+}
+.social-icons ul li i a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-icons ul li i a:hover{
+    color: black;
+}
+
+.content h1{
+    font-size: 45px;
+    color: #363062 ;
+}
+
+.content{
+    color: aliceblue;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
